@@ -20,6 +20,19 @@ main section:nth-child(1) {
     top: 30vh;
 }
 
+main section:nth-child(2) {
+    width: 2vw;
+    height: 5vh;
+    background-image: url('../assets/img/cactus.png');
+    position: relative;
+    top: 26vh;
+    left: 73vw;
+    background-size: 2vh 2vw;
+    background-repeat: no-repeat;
+
+    animation: block 2s infinite linear;
+}
+
 .jump {
     animation: jump 0.3s linear;
 }
@@ -43,5 +56,15 @@ main section:nth-child(1) {
 
     100% {
         top: 15vh;
+    }
+}
+
+@keyframes block {
+    0% {
+        left: 75vw;
+    }
+
+    100% {
+        left: -6vh;
     }
 }
