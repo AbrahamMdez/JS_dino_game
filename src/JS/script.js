@@ -14,17 +14,17 @@ const jump = () => {
     };
 };
 
-let isAlive = setInterval(function() {
+/* let isAlive = setInterval(function() {
 
     let dinoTopPosition = parseInt(window.getComputedStyle(dino).getPropertyValue('top'));
 
     let cactusLeftPosition = parseInt(window.getComputedStyle(cactus).getPropertyValue('left'));
     
     if (cactusLeftPosition < 50 && cactusLeftPosition > 0 && dinoTopPosition >= 140 ) {
-        console.log('collision');
+        alert('Game Over Brooch!')
     }
    
-}, 10);
+}, 10); */
 
 document.addEventListener('keydown', e => {
     jump();

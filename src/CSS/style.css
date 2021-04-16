@@ -22,7 +22,7 @@ main section:nth-child(1) {
 
 main section:nth-child(2) {
     width: 2vw;
-    height: 5vh;
+    height: 4vh;
     background-image: url('../assets/img/cactus.png');
     position: relative;
     top: 26vh;
