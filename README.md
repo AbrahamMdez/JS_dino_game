@@ -1,4 +1,4 @@
-# JS_dino_game
+# Dino Game
 
 ## Tecnologías
 
