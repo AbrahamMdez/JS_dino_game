@@ -7,4 +7,4 @@
 - JAVASCRIPT
 - GIT
 
-https://play.google.com/store/apps/details?id=com.deerslab.dinoTREX&hl=es&gl=US
+https://i.pinimg.com/originals/4d/57/97/4d5797b58336d97534885509fa9bd017.jpg
