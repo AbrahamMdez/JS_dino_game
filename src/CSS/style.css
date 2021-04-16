@@ -24,11 +24,11 @@ main section:nth-child(1) {
 main section:nth-child(2) {
     width: 2vw;
     height: 4vh;
-    background-image: url('../assets/img/cactus.png');
+    background-image: url('../assets/img/ball.jpg');
     position: relative;
-    top: 26vh;
+    top: 25vh;
     left: 73vw;
-    background-size: 2vh 2vw;
+    background-size: contain;
     background-repeat: no-repeat;
 
     animation: block 2s infinite linear;
