@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 75vw;
+    height: 40vh;
+    border: 1px solid black;
+    margin: auto;
+}
+
+main section:nth-child(1) {
+    width: 6vw;
+    height: 10vh;
+    background-image: url('../assets/img/dino.png');
+    background-size: 10vh;
+    position: relative;
+    top: 30vh;
+}
+
+.jump {
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 15vh;
+    }
+
+    30% {
+        top: 15vh;
+    }
+
+    50% {
+        top: 8vh;
+    }
+
+    80% {
+        top: 15vh;
+    }
+
+    100% {
+        top: 15vh;
+    }
+}
