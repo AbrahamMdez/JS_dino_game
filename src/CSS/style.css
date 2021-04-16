@@ -9,6 +9,7 @@ main {
     height: 40vh;
     border: 1px solid black;
     margin: auto;
+    background-color: green;
 }
 
 main section:nth-child(1) {
