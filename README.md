@@ -1,5 +1,7 @@
 # Dino Game
 
+_El tipico juego de google_
+
 ## Tecnologías
 
 - HTML
