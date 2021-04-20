@@ -20,7 +20,7 @@ let isAlive = setInterval(function() {
 
     let cactusLeftPosition = parseInt(window.getComputedStyle(cactus).getPropertyValue('left'));
     
-    if (cactusLeftPosition < 50 && cactusLeftPosition > 0 && dinoTopPosition >= 140 ) {
+    if (cactusLeftPosition < 50 && cactusLeftPosition > 0 && dinoTopPosition >= 200 ) {
         alert('MAÑANA SEGUIMOS!')
     }
    
